@@ -72,14 +72,14 @@ const Home = () => {
       <div className="relative bg-[url('src/assets/wallpaper.jpg')] bg-cover bg-center flex min-h-screen text-white">
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 flex flex-col items-center justify-center w-full min-h-screen gap-4">
-          <form className="flex flex-col items-center p-6 w-[40%] bg-[#1e1e1e] text-white rounded-lg shadow-md">
+          <form className="flex flex-col items-center p-6 w-full sm:w-[90%] md:w-[70%] lg:w-[50%] xl:w-[40%] bg-[#1e1e1e] text-white rounded-lg shadow-md">
             <p
               id="reserva"
               className="text-4xl mb-6 text-center text-[#d2a679]"
             >
               Reserva já a tua mesa
             </p>
-            <div className="grid grid-cols-2 gap-6 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
               <div className="flex flex-col gap-4">
                 <InputWithLabel
                   label="Nome"
